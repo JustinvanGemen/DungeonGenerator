@@ -1,37 +1,60 @@
-﻿using System.Linq;
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections.Generic;
+using System.Linq;
 
 public class Generator : MonoBehaviour {
-    
-    /*Psuedo Code
-        -Array of rooms
-        -A variable to show what kind of room to use as default starting room
-        -A variable to declare the amount of iterations the generator should do before it stops generating.
-        
-        -Start function 
-            -Instantiate the starting room
-            -A list of exists that haven't been used yet
-            
-            -For loop to go through the iteration variable declared above
-                -A list of the new exists added this iteration
-                -For each pending exit you create a bunch of variables
-                    -One for a random tag which it gets from function declared below the start function
-                    -One to get a random room prefab and giving it the tag from the variable above
-                    -var newRoom instantiate randomPrefabWithTag
-                    -get the exits from this room
-                    -add those exits to the list of exits that havent been used
-                    
-            -A match exit function 
-                -add a new room to an exit with transform properties of the parent
-                -Get a vector the room has to match by subtracting the transform of the exit the room is being attached too.
-                -Get the correct rotation using azimuth angles
-                -Rotate the room into its correct rotation
-                -Subtract the new transform position from the old one to get a corrective translation
-                -add the corrective translation to the current position
-                
-            -A static TItem called RandomRange which returns a random range between 0 and the length of the room array.
-            -A static float that contains a calculation for Azimuth's.
+    public Rooms[] Chambers;
+    public Rooms StartingChamber;
 
-    */
+    public int GenerationLoops = 7;
+
+    private void Start()
+    {
+        var pendingExits = new List<Connectors>(StartingChamber.GetExits());
+
+        for (var i = 0; i < GenerationLoops; i++)
+        {
+            var newExits = new List<Connectors>();
+
+            foreach (var pendingExit in pendingExits)
+            {
+                var newTag = GetRandom(pendingExit.Tags);
+                var newRoomPrefab = GetRandomWithTag(Chambers, newTag);
+                var newRoom = Instantiate(newRoomPrefab);
+                var newRoomExits = newRoom.GetExits();
+                var exitToMatch = newRoomExits.FirstOrDefault(x => x.IsDefault) ?? GetRandom(newRoomExits);
+                MatchExits(pendingExit, exitToMatch);
+                newExits.AddRange(newRoomExits.Where(e => e != exitToMatch));
+            }
+
+            pendingExits = newExits;
+        }
+    }
+    
+    private static void MatchExits(Component oldConnector, Component newConnector)
+    {
+        var newRoom = newConnector.transform.parent;
+        var forwardToMatch = -oldConnector.transform.forward;
+        var correctRotation = Azimuth(forwardToMatch) - Azimuth(newConnector.transform.forward);
+        newRoom.RotateAround(newConnector.transform.position, Vector3.up, correctRotation);
+        var correctTranslation = oldConnector.transform.position - newConnector.transform.position;
+        newRoom.transform.position += correctTranslation;
+    }
+    
+    private static TItem GetRandom<TItem>(TItem[] array)
+    {    
+        return array[Random.Range(0, array.Length)];
+    }
+
+
+    private static Rooms GetRandomWithTag(IEnumerable<Rooms> rooms, string tagToMatch)
+    {
+        var matchingRooms = rooms.Where(m => m.Tags.Contains(tagToMatch)).ToArray();
+        return GetRandom(matchingRooms);
+    }
+    
+    private static float Azimuth(Vector3 vector)
+    {
+        return Vector3.Angle(Vector3.forward, vector) * Mathf.Sign(vector.x);
+    }
 }
