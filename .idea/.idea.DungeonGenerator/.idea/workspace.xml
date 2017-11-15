@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51fd4c6e-bb17-4bf6-8c40-748276ed399b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Main.unity" afterPath="$PROJECT_DIR$/Assets/Main.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.DungeonGenerator/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.DungeonGenerator/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Connectors.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Connectors.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Generator.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Generator.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Rooms.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Rooms.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Generator.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Generator.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-231">
-              <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="414">
+              <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
               <folding>
                 <marker date="1510777533980" expanded="true" signature="6:71" ph="..." />
                 <marker date="1510777533980" expanded="true" signature="112:2120" ph="{...}" />
@@ -69,25 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TargetFollow.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/TargetFollow.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-              <folding>
-                <marker date="1510779033928" expanded="true" signature="61:429" ph="{...}" />
-                <marker date="1510779033928" expanded="true" signature="181:265" ph="{...}" />
-                <marker date="1510779033928" expanded="true" signature="297:427" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResetMap.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ResetMap.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ResetMap.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <marker date="1510779688322" expanded="true" signature="6:53" ph="..." />
                 <marker date="1510779688322" expanded="true" signature="93:295" ph="{...}" />
@@ -223,12 +202,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510764993033</updated>
-      <workItem from="1510764997853" duration="10886000" />
+      <workItem from="1510764997853" duration="11575000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10886000" />
+    <option name="totallyTimeSpent" value="11575000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -324,20 +303,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generator.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ResetMap.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-231">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <marker date="1510777533980" expanded="true" signature="6:71" ph="..." />
-            <marker date="1510777533980" expanded="true" signature="112:2120" ph="{...}" />
-            <marker date="1510777533980" expanded="true" signature="239:1054" ph="{...}" />
-            <marker date="1510777533980" expanded="true" signature="373:1048" ph="{...}" />
-            <marker date="1510777533980" expanded="true" signature="489:1000" ph="{...}" />
-            <marker date="1510777533980" expanded="true" signature="1142:1616" ph="{...}" />
-            <marker date="1510777533980" expanded="true" signature="1678:1747" ph="{...}" />
-            <marker date="1510777533980" expanded="true" signature="1836:1974" ph="{...}" />
-            <marker date="1510777533980" expanded="true" signature="2028:2118" ph="{...}" />
+            <marker date="1510779688322" expanded="true" signature="6:53" ph="..." />
+            <marker date="1510779688322" expanded="true" signature="93:295" ph="{...}" />
+            <marker date="1510779688322" expanded="true" signature="121:215" ph="{...}" />
+            <marker date="1510779688322" expanded="true" signature="168:209" ph="{...}" />
+            <marker date="1510779688322" expanded="true" signature="245:293" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -354,16 +329,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ResetMap.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="414">
+          <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
           <folding>
-            <marker date="1510779688322" expanded="true" signature="6:53" ph="..." />
-            <marker date="1510779688322" expanded="true" signature="93:295" ph="{...}" />
-            <marker date="1510779688322" expanded="true" signature="121:215" ph="{...}" />
-            <marker date="1510779688322" expanded="true" signature="168:209" ph="{...}" />
-            <marker date="1510779688322" expanded="true" signature="245:293" ph="{...}" />
+            <marker date="1510777533980" expanded="true" signature="6:71" ph="..." />
+            <marker date="1510777533980" expanded="true" signature="112:2120" ph="{...}" />
+            <marker date="1510777533980" expanded="true" signature="239:1054" ph="{...}" />
+            <marker date="1510777533980" expanded="true" signature="373:1048" ph="{...}" />
+            <marker date="1510777533980" expanded="true" signature="489:1000" ph="{...}" />
+            <marker date="1510777533980" expanded="true" signature="1142:1616" ph="{...}" />
+            <marker date="1510777533980" expanded="true" signature="1678:1747" ph="{...}" />
+            <marker date="1510777533980" expanded="true" signature="1836:1974" ph="{...}" />
+            <marker date="1510777533980" expanded="true" signature="2028:2118" ph="{...}" />
           </folding>
         </state>
       </provider>
