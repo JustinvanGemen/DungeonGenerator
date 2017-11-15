@@ -1,10 +1,17 @@
 ﻿using UnityEngine;
 
 public class Rooms : MonoBehaviour {
+    
+    
+    [SerializeField]private string[] _tags;
 
-    /*Psuedo Code
-        -Array of 2 strings, one for roomsize and one for kind of room (Corridor, room, junction).
-        -Public array of collectors that has all the Connector components found in children.
-
-    */
+    public string[] Tags
+    {
+        get { return _tags; }   
+    }
+    
+    public Connectors[] GetExits()
+    {
+        return GetComponentsInChildren<Connectors>();
+    }
 }

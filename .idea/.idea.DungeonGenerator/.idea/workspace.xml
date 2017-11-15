@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51fd4c6e-bb17-4bf6-8c40-748276ed399b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.DungeonGenerator/.idea/contentModel.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.DungeonGenerator/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.DungeonGenerator/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.DungeonGenerator/riderModule.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Main.unity" afterPath="$PROJECT_DIR$/Assets/Main.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.DungeonGenerator/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.DungeonGenerator/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Connectors.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Connectors.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Generator.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Generator.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Rooms.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Rooms.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,22 +24,13 @@
       <file leaf-file-name="Connectors.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Connectors.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="135">
+              <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
               <folding>
-                <marker date="1510765410699" expanded="true" signature="60:565" ph="{...}" />
-                <marker date="1510765410699" expanded="true" signature="67:563" ph="/* Psuedo Code ... */" />
+                <marker date="1510778022367" expanded="true" signature="60:843" ph="{...}" />
+                <marker date="1510778022367" expanded="true" signature="131:173" ph="{...}" />
+                <marker date="1510778022367" expanded="true" signature="233:841" ph="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModuleConnector.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../../../ModuleConnector.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -46,73 +38,94 @@
       <file leaf-file-name="Rooms.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Rooms.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
-                <marker date="1510766920472" expanded="true" signature="55:277" ph="{...}" />
-                <marker date="1510766920472" expanded="true" signature="62:275" ph="/* Psuedo Code ... */" />
+                <marker date="1510778170112" expanded="true" signature="55:289" ph="{...}" />
+                <marker date="1510778170112" expanded="true" signature="136:181" ph="{...}" />
+                <marker date="1510778170112" expanded="true" signature="221:287" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Module.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../../../Module.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <marker date="1510765521027" expanded="true" signature="55:167" ph="{...}" />
-                <marker date="1510765521027" expanded="true" signature="112:165" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Generator.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Generator.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="-231">
+              <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding>
-                <marker date="1510766931826" expanded="true" signature="6:71" ph="..." />
-                <marker date="1510766931826" expanded="true" signature="112:1878" ph="{...}" />
-                <marker date="1510766931826" expanded="true" signature="123:1876" ph="/* Psuedo Code ... */" />
+                <marker date="1510777533980" expanded="true" signature="6:71" ph="..." />
+                <marker date="1510777533980" expanded="true" signature="112:2120" ph="{...}" />
+                <marker date="1510777533980" expanded="true" signature="239:1054" ph="{...}" />
+                <marker date="1510777533980" expanded="true" signature="373:1048" ph="{...}" />
+                <marker date="1510777533980" expanded="true" signature="489:1000" ph="{...}" />
+                <marker date="1510777533980" expanded="true" signature="1142:1616" ph="{...}" />
+                <marker date="1510777533980" expanded="true" signature="1678:1747" ph="{...}" />
+                <marker date="1510777533980" expanded="true" signature="1836:1974" ph="{...}" />
+                <marker date="1510777533980" expanded="true" signature="2028:2118" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModularWorldGenerator.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../../../ModularWorldGenerator.cs">
+      <file leaf-file-name="TargetFollow.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/TargetFollow.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="33" />
-              <folding />
+            <state relative-caret-position="105">
+              <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+              <folding>
+                <marker date="1510779033928" expanded="true" signature="61:429" ph="{...}" />
+                <marker date="1510779033928" expanded="true" signature="181:265" ph="{...}" />
+                <marker date="1510779033928" expanded="true" signature="297:427" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResetMap.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ResetMap.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <marker date="1510779688322" expanded="true" signature="6:53" ph="..." />
+                <marker date="1510779688322" expanded="true" signature="93:295" ph="{...}" />
+                <marker date="1510779688322" expanded="true" signature="121:215" ph="{...}" />
+                <marker date="1510779688322" expanded="true" signature="168:209" ph="{...}" />
+                <marker date="1510779688322" expanded="true" signature="245:293" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>module</find>
+      <find>StartingRoom</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Connectors.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rooms.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../../Module.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/../../../../../ModularWorldGenerator.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/../../../../../ModuleConnector.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ResetMap.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Connectors.cs" />
         <option value="$PROJECT_DIR$/../../../../../Module.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Rooms.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Generator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Connectors.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Rooms.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TargetFollow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ResetMap.cs" />
       </list>
     </option>
   </component>
@@ -151,7 +164,7 @@
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DungeonGenerator (2 projects)" />
+              <option name="myItemId" value="DungeonGenerator (3 projects)" />
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -210,12 +223,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510764993033</updated>
-      <workItem from="1510764997853" duration="1941000" />
+      <workItem from="1510764997853" duration="10886000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1941000" />
+    <option name="totallyTimeSpent" value="10886000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -263,63 +276,94 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Connectors.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding>
-            <marker date="1510765410699" expanded="true" signature="60:565" ph="{...}" />
-            <marker date="1510765410699" expanded="true" signature="67:563" ph="/* Psuedo Code ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../../../ModuleConnector.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Rooms.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1510766920472" expanded="true" signature="55:277" ph="{...}" />
-            <marker date="1510766920472" expanded="true" signature="62:275" ph="/* Psuedo Code ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../ModularWorldGenerator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="33" />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../../../Module.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../ModularWorldGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="62" lean-forward="false" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Connectors.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding>
-            <marker date="1510765521027" expanded="true" signature="55:167" ph="{...}" />
-            <marker date="1510765521027" expanded="true" signature="112:165" ph="{...}" />
+            <marker date="1510778022367" expanded="true" signature="60:843" ph="{...}" />
+            <marker date="1510778022367" expanded="true" signature="131:173" ph="{...}" />
+            <marker date="1510778022367" expanded="true" signature="233:841" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Rooms.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <marker date="1510778170112" expanded="true" signature="55:289" ph="{...}" />
+            <marker date="1510778170112" expanded="true" signature="136:181" ph="{...}" />
+            <marker date="1510778170112" expanded="true" signature="221:287" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        <state relative-caret-position="-231">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding>
-            <marker date="1510766931826" expanded="true" signature="6:71" ph="..." />
-            <marker date="1510766931826" expanded="true" signature="112:1878" ph="{...}" />
-            <marker date="1510766931826" expanded="true" signature="123:1876" ph="/* Psuedo Code ... */" />
+            <marker date="1510777533980" expanded="true" signature="6:71" ph="..." />
+            <marker date="1510777533980" expanded="true" signature="112:2120" ph="{...}" />
+            <marker date="1510777533980" expanded="true" signature="239:1054" ph="{...}" />
+            <marker date="1510777533980" expanded="true" signature="373:1048" ph="{...}" />
+            <marker date="1510777533980" expanded="true" signature="489:1000" ph="{...}" />
+            <marker date="1510777533980" expanded="true" signature="1142:1616" ph="{...}" />
+            <marker date="1510777533980" expanded="true" signature="1678:1747" ph="{...}" />
+            <marker date="1510777533980" expanded="true" signature="1836:1974" ph="{...}" />
+            <marker date="1510777533980" expanded="true" signature="2028:2118" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TargetFollow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding>
+            <marker date="1510779033928" expanded="true" signature="61:429" ph="{...}" />
+            <marker date="1510779033928" expanded="true" signature="181:265" ph="{...}" />
+            <marker date="1510779033928" expanded="true" signature="297:427" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ResetMap.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <marker date="1510779688322" expanded="true" signature="6:53" ph="..." />
+            <marker date="1510779688322" expanded="true" signature="93:295" ph="{...}" />
+            <marker date="1510779688322" expanded="true" signature="121:215" ph="{...}" />
+            <marker date="1510779688322" expanded="true" signature="168:209" ph="{...}" />
+            <marker date="1510779688322" expanded="true" signature="245:293" ph="{...}" />
           </folding>
         </state>
       </provider>
